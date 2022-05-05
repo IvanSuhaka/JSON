@@ -1,0 +1,62 @@
+JSON
+
+4. Создаем репозиторий JSON в вебе
+5. git clone https://github.com/IvanSuhaka/JSON.git
+6. vim new.json // { "Name": "Ivan", "Age": "23" }
+7. git add new.json
+8. git commit -m "Created JSON file"
+9. git push
+10. vim new.json // { "Pets": "0", "Desired Salary": "2000$" }
+11. git commit -am "Modified JSON file" > git push
+12. vim preferences.json 
+13. {
+        "Favorite movie": "The Wolf of Wall Street",
+        "Favorite TV show": "The Expanse",
+        "Favorite food": "Fried potatoes with meat",
+        "Favorite season": "Summer",
+        "Favorite country": "Switzerland"
+}
+14. {
+        "1": "Theory, SDLC, STLC",
+        "2": "Server-client architecture",
+        "3": "HTTP methods",
+        "4": "HTTP response codes",
+        "5": "HTTP request/response structure",
+        "6": "JSON, XML",
+        "7": "Postman API testing",
+        "8": "Fetching and reading logs from the external server",
+        "9": "Web traffic sniffing via Charles and Fiddler",
+        "10": "Dev Tools",
+        "11": "VPN",
+        "12": "Mobile testing",
+        "13": "iOS/Android peculiarities, guidelines",
+        "14": "iOS apps building via XCode",
+        "15": "Android apps building via Android Studio",
+        "16": "ADB",
+        "17": "Proxy and VPN setup on iOS/Android",
+        "18": "Mobile traffic sniffing via Charles/Fiddler on iOS/Android",
+        "19": "Terminal basics",
+        "20": "Bash scripting basics, routine automatization",
+        "21": "Remote server access",
+        "22": "SQL basics",
+        "23": "Postgres",
+        "24": "Redis",
+        "25": "Load testing with Jmeter",
+        "26": "Scrum methodology",
+        "27": "Python basics"
+}
+
+15. git add . > git commit -m "Created preferences.json and skills.json" > git push
+16. New file > name a file "bug_report.json" 
+17. Commit changes
+18. Edit file > {
+        "Summary": "Login: Error messages in the login form are displayed in English",
+        "Environment": "All browsers / devices",
+        "Severity": "Major",
+        "Steps to reproduce": "1. Open front end https://example.com/login 2. Follow 'Inloggen' link 3. Fill required fields with invalid data 4. Click 'Inloggen' button 5. Pay attention to error messages",
+        "Actual result": "Error messages in the login form are displayed in English",
+        "Expected result": "Error messages in the login form are displayed in the chosen language"
+}
+19. Commit changes "modified bug report (added all necessary info)"
+20. git pull
+
